@@ -1,17 +1,5 @@
 [
   {
-    "id": "perm_max_res_plus5",
-    "name": "Гарантированный допуск",
-    "type": "perm",
-    "desc": "+5 к максимальному ресурсу"
-  },
-  {
-    "id": "perm_heal_on_skill_2",
-    "name": "Тёплая инерция",
-    "type": "perm",
-    "desc": "+2 HP после использования скилла"
-  },
-  {
     "id": "perm_ignore_first_debuff",
     "name": "Сетка внимания",
     "type": "perm",

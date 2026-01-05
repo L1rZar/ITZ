@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Простой запуск игры.
+Простой запуск игры.1
 """
 from core import auth, save_system
 from scenes import intro, chapter_1, chapter_2, chapter_3, chapter_4, chapter_5
