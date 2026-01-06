@@ -1,7 +1,7 @@
 """
 магазин "Терминал компенсаций".
 """
-from .artifacts import pop_artifact_from_pool
+from .game_mechanics import pop_artifact_from_pool
 
 
 def open_terminal(state):
@@ -60,3 +60,7 @@ def open_special_terminal(state):
             print('Артефактов в пуле нет.')
     else:
         print('Неверный выбор или недостаточно ОЯ.')
+
+
+def wait_enter(prompt="Нажмите Enter чтобы продолжить..."):
+    input(prompt)

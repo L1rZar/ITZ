@@ -4,9 +4,10 @@
 """
 
 from core.text_bank import intro, intro_metro_scene, hero_select_text
-from core.heroes import create_hero
+from core.entities import create_hero
+from core.battle import run_battle
 from core.save_system import save_state
-from core.utils import wait_enter
+from core.ui import wait_enter
 
 
 def run(state):

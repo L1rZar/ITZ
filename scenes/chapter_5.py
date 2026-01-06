@@ -3,10 +3,12 @@
 Глава 5: Протокол Надзора (финал).
 """
 
+from core.entities import create_boss
 from core.battle import run_battle
+from core.game_mechanics import pop_artifact_from_pool, choose_permanent_artifact
+from core.ui import open_terminal, open_special_terminal
 from core.save_system import save_state
-from core.enemies import create_boss
-from core.utils import wait_enter
+from core.ui import wait_enter
 from core.text_bank import chap5_title, chap5_path, chap5_silence
 
 

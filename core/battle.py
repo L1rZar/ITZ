@@ -3,12 +3,14 @@
 Интерфейс: атака / скилл / инвентарь / артефакты.
 """
 
-from .heroes import Hero
-from .enemies import Enemy
-from .effects import add_effect, tick_effects, count_effect
-from .artifacts import apply_permanent_effects, use_temporary_artifact
-from .artifacts import pop_random_consumable_from_pool, choose_permanent_artifact
-from .inventory import Inventory
+from .entities import Hero, Enemy
+from .game_mechanics import (
+    add_effect, tick_effects, count_effect,
+    apply_permanent_effects, use_temporary_artifact,
+    pop_random_consumable_from_pool, choose_permanent_artifact,
+    Inventory
+)
+
 
 
 def compute_damage(actor, target, base_mult=1.0):

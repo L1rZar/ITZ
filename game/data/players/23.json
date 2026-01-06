@@ -1,0 +1,50 @@
+{
+  "login": "23",
+  "chapter": 3,
+  "artifacts": [
+    {
+      "id": "perm_dmg_2",
+      "name": "Осколок табло",
+      "type": "perm",
+      "desc": "+2 к урону"
+    },
+    {
+      "id": "cons_medkit",
+      "name": "Аптечка",
+      "type": "cons",
+      "desc": "+35 HP"
+    },
+    {
+      "id": "perm_hp_20",
+      "name": "Пыль депо",
+      "type": "perm",
+      "desc": "+20 к max HP"
+    }
+  ],
+  "inventory": {
+    "medkit": 1
+  },
+  "clarity_points": 0,
+  "flags": {
+    "branch": "appeal"
+  },
+  "hero": {
+    "name": "Анфиса",
+    "max_hp": 95,
+    "hp": 11,
+    "base_damage": 14,
+    "resource_name": "Мана",
+    "max_res": 12,
+    "res": 2,
+    "hero_class": "mage"
+  },
+  "chapter_completed": true,
+  "permanent_artifacts": [
+    {
+      "id": "perm_dmg_2",
+      "name": "Осколок табло",
+      "type": "perm",
+      "desc": "+2 к урону"
+    }
+  ]
+}

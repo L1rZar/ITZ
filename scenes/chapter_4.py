@@ -2,10 +2,12 @@
 Глава 4: Куратор Перезагрузки.
 """
 
+from core.entities import create_boss
 from core.battle import run_battle
+from core.game_mechanics import pop_artifact_from_pool, choose_permanent_artifact
+from core.ui import open_terminal, open_special_terminal
 from core.save_system import save_state
-from core.enemies import create_boss
-from core.utils import wait_enter
+from core.ui import wait_enter
 from core.text_bank import (
     chap4_title,
     chap4_between,
@@ -13,7 +15,7 @@ from core.text_bank import (
     chap4_curator_intro,
     chap4_after_battle,
 )
-from core.shops import open_special_terminal
+from core.ui import open_special_terminal
 
 
 def run(state):

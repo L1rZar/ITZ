@@ -3,11 +3,12 @@
 Глава 2: Архив претензий.
 """
 
-from core.enemies import create_boss
+from core.entities import create_boss
 from core.battle import run_battle
-from core.shops import open_terminal
+from core.game_mechanics import pop_artifact_from_pool, choose_permanent_artifact
+from core.ui import open_terminal, open_special_terminal
 from core.save_system import save_state
-from core.utils import wait_enter
+from core.ui import wait_enter
 from core.text_bank import (
     chap2_title,
     chap2_between,

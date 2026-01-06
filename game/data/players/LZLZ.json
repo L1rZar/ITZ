@@ -1,0 +1,20 @@
+{
+  "login": "LZLZ",
+  "chapter": 1,
+  "artifacts": [],
+  "inventory": {
+    "medkit": 1
+  },
+  "clarity_points": 0,
+  "flags": {},
+  "hero": {
+    "name": "Саня",
+    "max_hp": 140,
+    "hp": 140,
+    "base_damage": 16,
+    "resource_name": "Выносливость",
+    "max_res": 10,
+    "res": 5,
+    "hero_class": "warrior"
+  }
+}

@@ -2,9 +2,9 @@
 Меню: новая игра, продолжить, пролог, выход.
 """
 
-from core import auth, save_system
+from core.save_system import register_or_login, create_new_state, load_state, save_state
 from scenes import intro, chapter_1, chapter_2, chapter_3, chapter_4, chapter_5
-from core.artifacts import ensure_pool_loaded
+from core.game_mechanics import ensure_pool_loaded
 from core.text_bank import prolog_recap, main_menu_text
 
 
@@ -16,18 +16,18 @@ def main():
         choice = input("Ваш выбор: ").strip()
 
         if choice == "1":
-            login = auth.register_or_login(new=True)
+            login = register_or_login(new=True)
             if not login:
                 continue
-            state = save_system.create_new_state(login)
+            state = create_new_state(login)
             run_game_loop(state)
             break
 
         elif choice == "2":
-            login = auth.register_or_login(new=False)
+            login = register_or_login(new=False)
             if not login:
                 continue
-            state = save_system.load_state(login)
+            state = load_state(login)
             if not state:
                 print("Сохранения не найдено. Начните новую игру.")
                 continue
@@ -91,11 +91,11 @@ def run_game_loop(state):
 
     finally:
         if saved:
-            save_system.save_state(state)
+            save_state(state)
             print("Прогресс сохранён.")
         else:
             try:
-                save_system.save_state(state)
+                save_state(state)
                 print("Игра сохранена при выходе.")
             except Exception:
                 print("Не удалось сохранить игру при выходе.")
