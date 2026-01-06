@@ -1,0 +1,8 @@
+[
+  {
+    "id": "cons_medkit",
+    "name": "Аптечка",
+    "type": "cons",
+    "desc": "+35 HP"
+  }
+]

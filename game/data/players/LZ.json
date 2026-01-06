@@ -1,0 +1,29 @@
+{
+  "login": "LZ",
+  "chapter": 2,
+  "artifacts": [],
+  "inventory": {
+    "medkit": 1
+  },
+  "clarity_points": 2,
+  "flags": {},
+  "hero": {
+    "name": "Юки",
+    "max_hp": 120,
+    "hp": 120,
+    "base_damage": 10,
+    "resource_name": "Вера",
+    "max_res": 10,
+    "res": 9,
+    "hero_class": "healer"
+  },
+  "chapter_completed": true,
+  "permanent_artifacts": [
+    {
+      "id": "perm_dmg_2",
+      "name": "Осколок табло",
+      "type": "perm",
+      "desc": "+2 к урону"
+    }
+  ]
+}

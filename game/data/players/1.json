@@ -1,0 +1,43 @@
+{
+  "login": "1",
+  "chapter": 3,
+  "artifacts": [],
+  "inventory": {
+    "medkit": 0
+  },
+  "clarity_points": 0,
+  "flags": {
+    "branch": "investigate"
+  },
+  "hero": {
+    "name": "Марк",
+    "max_hp": 130,
+    "hp": 14,
+    "base_damage": 18,
+    "resource_name": "Фокус",
+    "max_res": 10,
+    "res": 0,
+    "hero_class": "archer"
+  },
+  "chapter_completed": true,
+  "permanent_artifacts": [
+    {
+      "id": "perm_dmg_2",
+      "name": "Осколок табло",
+      "type": "perm",
+      "desc": "+2 к урону"
+    },
+    {
+      "id": "perm_hp_20",
+      "name": "Пыль депо",
+      "type": "perm",
+      "desc": "+20 к max HP"
+    },
+    {
+      "id": "perm_dmg_2",
+      "name": "Осколок табло",
+      "type": "perm",
+      "desc": "+2 к урону"
+    }
+  ]
+}

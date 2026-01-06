@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Сохранения игроков коммичу для примера поэтому
+#data/players/
+
+.idea/
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+
