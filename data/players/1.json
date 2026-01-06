@@ -1,0 +1,56 @@
+{
+  "login": "1",
+  "chapter": 2,
+  "artifacts": [],
+  "inventory": {
+    "medkit": 0
+  },
+  "clarity_points": 19,
+  "flags": {
+    "branch": "appeal",
+    "special_terminal_used": true
+  },
+  "hero": {
+    "name": "Саня",
+    "max_hp": 140,
+    "hp": 40,
+    "base_damage": 16,
+    "resource_name": "Выносливость",
+    "max_res": 10,
+    "res": 0,
+    "hero_class": "warrior"
+  },
+  "chapter_completed": true,
+  "permanent_artifacts": [
+    {
+      "id": "perm_heal_on_skill_2",
+      "name": "Тёплая инерция",
+      "type": "perm",
+      "desc": "+2 HP после использования скилла"
+    },
+    {
+      "id": "perm_buff_positive_plus1",
+      "name": "Пакет протоколов",
+      "type": "perm",
+      "desc": "+1 ход к положительным эффектам"
+    },
+    {
+      "id": "perm_first_debuff_minus1",
+      "name": "Фильтр шума",
+      "type": "perm",
+      "desc": "Первый негативный эффект короче на 1 ход"
+    },
+    {
+      "id": "perm_safe_regen_2",
+      "name": "Спокойный пульс",
+      "type": "perm",
+      "desc": "+2 HP в ход, если не наносился урон"
+    },
+    {
+      "id": "perm_heal_bonus",
+      "name": "Запасной токен",
+      "type": "perm",
+      "desc": "+10% к лечению"
+    }
+  ]
+}

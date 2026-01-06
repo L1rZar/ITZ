@@ -1,0 +1,98 @@
+[
+  {
+    "id": "perm_rage_10",
+    "name": "Тихая ярость",
+    "type": "perm",
+    "desc": "При HP <=30%: +10% урона"
+  },
+  {
+    "id": "perm_start_barrier",
+    "name": "Лента предупреждений",
+    "type": "perm",
+    "desc": "Барьер 10 HP в начале боя"
+  },
+  {
+    "id": "perm_buff_positive_plus1",
+    "name": "Пакет протоколов",
+    "type": "perm",
+    "desc": "+1 ход к положительным эффектам"
+  },
+  {
+    "id": "cons_stim",
+    "name": "Стимулятор ресурса",
+    "type": "cons",
+    "desc": "+4 к ресурсу (расходник)"
+  },
+  {
+    "id": "perm_max_res_plus5",
+    "name": "Гарантированный допуск",
+    "type": "perm",
+    "desc": "+5 к максимальному ресурсу"
+  },
+  {
+    "id": "cons_appeal",
+    "name": "Экстренная апелляция",
+    "type": "cons",
+    "desc": "Снять блокировки и негатив (расходник)"
+  },
+  {
+    "id": "perm_heal_on_skill_2",
+    "name": "Тёплая инерция",
+    "type": "perm",
+    "desc": "+2 HP после использования скилла"
+  },
+  {
+    "id": "cons_medkit",
+    "name": "Аптечка",
+    "type": "cons",
+    "desc": "+35 HP (расходник)"
+  },
+  {
+    "id": "perm_ignore_first_debuff",
+    "name": "Сетка внимания",
+    "type": "perm",
+    "desc": "Игнорирует первый негативный эффект"
+  },
+  {
+    "id": "cons_tonic",
+    "name": "Тоник тишины",
+    "type": "cons",
+    "desc": "Враг -15% урона на 3 хода (расходник)"
+  },
+  {
+    "id": "perm_first_debuff_minus1",
+    "name": "Фильтр шума",
+    "type": "perm",
+    "desc": "Первый негативный эффект короче на 1 ход"
+  },
+  {
+    "id": "perm_safe_regen_2",
+    "name": "Спокойный пульс",
+    "type": "perm",
+    "desc": "+2 HP в ход, если не наносился урон"
+  },
+  {
+    "id": "perm_heal_bonus",
+    "name": "Запасной токен",
+    "type": "perm",
+    "desc": "+10% к лечению"
+  },
+  {
+    "id": "cons_spray",
+    "name": "Спрей «сцепление»",
+    "type": "cons",
+    "desc": "+15% к урону на 3 хода (расходник)"
+  },
+  {
+    "id": "perm_dmg_plus1_3turns",
+    "name": "Служебная пометка",
+    "type": "perm",
+    "desc": "+1 урон первые 3 хода"
+  },
+  {
+    "id": "perm_cleanse_once",
+    "name": "Пломба возражения",
+    "type": "perm",
+    "desc": "1× снять негатив в бою"
+  }
+]
