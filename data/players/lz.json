@@ -1,0 +1,28 @@
+{
+  "login": "lz",
+  "chapter": 1,
+  "artifacts": [
+    {
+      "id": "perm_first_debuff_minus1",
+      "name": "Фильтр шума",
+      "type": "perm",
+      "desc": "Первый негативный эффект короче на 1 ход"
+    }
+  ],
+  "inventory": {
+    "medkit": 0
+  },
+  "clarity_points": 2,
+  "flags": {},
+  "hero": {
+    "name": "Саня",
+    "max_hp": 140,
+    "hp": 140,
+    "base_damage": 16,
+    "resource_name": "Выносливость",
+    "max_res": 10,
+    "res": 6,
+    "hero_class": "warrior"
+  },
+  "chapter_completed": true
+}

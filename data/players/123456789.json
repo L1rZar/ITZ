@@ -1,0 +1,34 @@
+{
+  "login": "123456789",
+  "chapter": 2,
+  "artifacts": [
+    {
+      "id": "cons_tonic",
+      "name": "Тоник тишины",
+      "type": "cons",
+      "desc": "Враг -15% урона на 3 хода (расходник)"
+    },
+    {
+      "id": "perm_buff_positive_plus1",
+      "name": "Пакет протоколов",
+      "type": "perm",
+      "desc": "+1 ход к положительным эффектам"
+    }
+  ],
+  "inventory": {
+    "medkit": 0
+  },
+  "clarity_points": 2,
+  "flags": {},
+  "hero": {
+    "name": "Марк",
+    "max_hp": 110,
+    "hp": 44,
+    "base_damage": 14,
+    "resource_name": "Фокус",
+    "max_res": 10,
+    "res": 10,
+    "hero_class": "archer"
+  },
+  "chapter_completed": true
+}

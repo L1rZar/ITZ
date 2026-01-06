@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cons_stim",
+    "name": "Стимулятор ресурса",
+    "type": "cons",
+    "desc": "+4 к ресурсу (расходник)"
+  },
+  {
+    "id": "perm_max_res_plus5",
+    "name": "Гарантированный допуск",
+    "type": "perm",
+    "desc": "+5 к максимальному ресурсу"
+  },
+  {
+    "id": "cons_medkit",
+    "name": "Аптечка",
+    "type": "cons",
+    "desc": "+35 HP (расходник)"
+  },
+  {
+    "id": "perm_first_debuff_minus1",
+    "name": "Фильтр шума",
+    "type": "perm",
+    "desc": "Первый негативный эффект короче на 1 ход"
+  },
+  {
+    "id": "perm_safe_regen_2",
+    "name": "Спокойный пульс",
+    "type": "perm",
+    "desc": "+2 HP в ход, если не наносился урон"
+  },
+  {
+    "id": "perm_heal_bonus",
+    "name": "Запасной токен",
+    "type": "perm",
+    "desc": "+10% к лечению"
+  },
+  {
+    "id": "perm_dmg_plus1_3turns",
+    "name": "Служебная пометка",
+    "type": "perm",
+    "desc": "+1 урон первые 3 хода"
+  },
+  {
+    "id": "perm_cleanse_once",
+    "name": "Пломба возражения",
+    "type": "perm",
+    "desc": "1× снять негатив в бою"
+  }
+]
