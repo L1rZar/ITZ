@@ -1,11 +1,5 @@
 [
   {
-    "id": "perm_buff_positive_plus1",
-    "name": "Пакет протоколов",
-    "type": "perm",
-    "desc": "+1 ход к положительным эффектам"
-  },
-  {
     "id": "cons_stim",
     "name": "Стимулятор ресурса",
     "type": "cons",
@@ -22,12 +16,6 @@
     "name": "Аптечка",
     "type": "cons",
     "desc": "+35 HP (расходник)"
-  },
-  {
-    "id": "cons_tonic",
-    "name": "Тоник тишины",
-    "type": "cons",
-    "desc": "Враг -15% урона на 3 хода (расходник)"
   },
   {
     "id": "perm_first_debuff_minus1",
