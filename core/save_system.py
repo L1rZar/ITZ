@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Система сохранений через JSON, привязанная к логину.
 Файл на игрока: data/players/<login>.json
@@ -13,7 +12,7 @@ PLAYERS_DIR = os.path.join(DATA_DIR, "players")
 
 
 def _ensure_dirs():
-    """Просто создать папку для сохранений, если её ещё нет."""
+    """Создать папку для сохранений, если её ещё нет."""
     if not os.path.exists(PLAYERS_DIR):
         os.makedirs(PLAYERS_DIR)
 
@@ -30,7 +29,7 @@ def save_state(state: dict):
 
 
 def load_state(login: str):
-    """Прочитать состояние игрока из JSON. Если файла нет — вернуть None."""
+    """Прочитать состояние игрока из JSON. Если файла нет - вернуть None."""
     _ensure_dirs()
     path = os.path.join(PLAYERS_DIR, f"{login}.json")
     if not os.path.exists(path):

@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Простой запуск игры. Меню: новая игра, продолжить, пролог, выход.
+Меню: новая игра, продолжить, пролог, выход.
 """
 
 from core import auth, save_system
@@ -96,7 +94,6 @@ def run_game_loop(state):
             save_system.save_state(state)
             print("Прогресс сохранён.")
         else:
-            # если нужно доп. поведение при выходе без сохранения — можно добавить здесь
             try:
                 save_system.save_state(state)
                 print("Игра сохранена при выходе.")

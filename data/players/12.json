@@ -1,0 +1,37 @@
+{
+  "login": "12",
+  "chapter": 3,
+  "artifacts": [],
+  "inventory": {
+    "medkit": 0
+  },
+  "clarity_points": 0,
+  "flags": {
+    "branch": "appeal"
+  },
+  "hero": {
+    "name": "Саня",
+    "max_hp": 140,
+    "hp": 25,
+    "base_damage": 16,
+    "resource_name": "Выносливость",
+    "max_res": 10,
+    "res": 7,
+    "hero_class": "warrior"
+  },
+  "chapter_completed": true,
+  "permanent_artifacts": [
+    {
+      "id": "perm_ignore_first_debuff",
+      "name": "Сетка внимания",
+      "type": "perm",
+      "desc": "Игнорирует первый негативный эффект"
+    },
+    {
+      "id": "perm_heal_on_skill_2",
+      "name": "Тёплая инерция",
+      "type": "perm",
+      "desc": "+2 HP после использования скилла"
+    }
+  ]
+}

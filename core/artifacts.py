@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
 """
 Артефакты: пул, постоянные и временные эффекты.
-Простой код без лишних конструкций.
 """
 
 import json
@@ -118,7 +116,7 @@ def choose_permanent_artifact(state):
     for idx, art in perms:
         name = art.get("name", "Безымянный")
         desc = art.get("desc", "(нет описания)")
-        print(f"{idx + 1} — {name} — {desc}")
+        print(f"{idx + 1} - {name} - {desc}")
 
     choice = input("Ваш выбор (номер) или Enter для пропуска: ").strip()
     if not choice:
@@ -230,7 +228,7 @@ def use_temporary_artifact(hero, state):
 
     print("Ваши артефакты:")
     for i, a in enumerate(pool):
-        print(f"{i + 1} — {a.get('name')} ({a.get('id')})")
+        print(f"{i + 1} - {a.get('name')} ({a.get('id')})")
 
     choice = input("Выберите номер или Enter для отмены: ").strip()
     if not choice:

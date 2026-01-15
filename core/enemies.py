@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Враги и боссы.
+боссы.
 """
 from .models import Character
 

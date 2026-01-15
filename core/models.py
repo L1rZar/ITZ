@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Базовые модели: дескриптор ClampedInt и простые модели персонажей.
+Базовые модели: дескриптор ClampedInt и модели персонажей.
 """
 from typing import Any
 
@@ -54,7 +53,7 @@ class Character:
             return 0.0
 
     def apply_damage(self, dmg: int):
-        # простая функция урона
+        # функция урона
         self.hp = max(0, self.hp - max(0, int(dmg)))
 
     def heal(self, amount: int):

@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Герои: конкретные классы и фабрика создания героя по выбору.
+Герои: конкретные классы и создание героя по выбору.
 """
 from .models import Character, ClampedInt
 
@@ -24,9 +23,7 @@ class Hero(Character):
 
 
 def create_hero(choice: str) -> Hero:
-    # Взято из TECH_SPEC (значения упрощены и соответствуют README.md)
     if choice == '1':
-        # Саня — ресурс задаём как 50% от max_res
         max_res = 10
         start_res = max(1, int(max_res * 0.5))
         return Hero('Саня', 140, 16, 'Выносливость', max_res, start_res, 'warrior')

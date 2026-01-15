@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Простейший магазин "Терминал компенсаций".
+магазин "Терминал компенсаций".
 """
 from .artifacts import pop_artifact_from_pool
 
@@ -8,9 +7,9 @@ from .artifacts import pop_artifact_from_pool
 def open_terminal(state):
     cp = state.get('clarity_points', 0)
     print(f'Баланс ОЯ: {cp}')
-    print('1 — Обменять 2 ОЯ на временный артефакт')
-    print('2 — Обменять 4 ОЯ на постоянный артефакт')
-    print('0 — Выйти')
+    print('1 - Обменять 2 ОЯ на временный артефакт')
+    print('2 - Обменять 4 ОЯ на постоянный артефакт')
+    print('0 - Выйти')
     choice = input('Ваш выбор: ').strip()
     if choice == '1' and cp >= 2:
         art = pop_artifact_from_pool()
@@ -27,7 +26,7 @@ def open_terminal(state):
 
 
 def open_special_terminal(state):
-    """Одноразовый автомат со скидкой для исключительных.
+    """Одноразовый автомат со скидкой.
     Позволяет купить временный за 1 ОЯ и постоянный за 3 ОЯ (один раз).
     Сохраняет факт использования в state['flags']['special_terminal_used'].
     """
@@ -37,9 +36,9 @@ def open_special_terminal(state):
         return
     cp = state.get('clarity_points', 0)
     print('Специальное предложение доступно! Баланс ОЯ:', cp)
-    print('1 — Временный артефакт за 1 ОЯ')
-    print('2 — Постоянный артефакт за 3 ОЯ')
-    print('0 — Выйти')
+    print('1 - Временный артефакт за 1 ОЯ')
+    print('2 - Постоянный артефакт за 3 ОЯ')
+    print('0 - Выйти')
     choice = input('Ваш выбор: ').strip()
     if choice == '1' and cp >= 1:
         art = pop_artifact_from_pool()

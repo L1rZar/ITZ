@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 """
 Глава 3: Матушка Лиги Безопасности.
 """
@@ -20,7 +20,7 @@ from core.text_bank import (
 
 def run(state):
     """
-    Глава 3 с учётом ветки branch из главы 2.
+    Глава 3.
     В конце успешного боя выставляет chapter = 4.
     """
     if state.get("chapter", 0) < 3:

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import sys
 
 def wait_enter(prompt='\nНажмите Enter чтобы продолжить...'):

@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Простейший инвентарь: расходники.
+инвентарь: расходники.
 """
 
 
@@ -13,7 +12,7 @@ class Inventory:
 
     def open_inventory(self, hero, boss):
         inv = self.state.get('inventory', {})
-        # если инвентарь пуст — не тратить ход
+        # если инвентарь пуст - не тратить ход
         non_zero = any(v > 0 for v in inv.values())
         if not inv or not non_zero:
             print('Инвентарь пуст.')
@@ -22,8 +21,8 @@ class Inventory:
         print('Инвентарь:')
         for k, v in inv.items():
             print(f"{k}: {v}")
-        print('1 — Использовать аптечку')
-        print('0 — Выйти')
+        print('1 - Использовать аптечку')
+        print('0 - Выйти')
         ch = input('> ').strip()
         if ch == '0':
             # выход из инвентаря не тратит ход
